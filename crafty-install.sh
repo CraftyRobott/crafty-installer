@@ -1,1 +1,3 @@
-pacman -S --noconfirm hyprland 
+pacman -S --noconfirm hyprland ly
+systemctl enable ly.service
+reboot
